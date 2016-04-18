@@ -1,3 +1,7 @@
+/** @function googleMapper
+ * Map From a Google Places API Result to a Tassl API Model
+ * @param {place} place - The google place API to map.
+ */
 function googleMapper(place) {
 	loc = {
 		"google_id": place["place_id"],
